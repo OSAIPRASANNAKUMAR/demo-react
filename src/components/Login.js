@@ -54,7 +54,7 @@ const Login = () => {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="someone@example.com"
+              placeholder="example@gx.com"
             />
             {errorMessage && <span style={{ color: 'red', marginLeft: '8%' }}>{errorMessage}</span>}<br />
             <a className="recover" href="recover.html">Can't access your account?</a>
